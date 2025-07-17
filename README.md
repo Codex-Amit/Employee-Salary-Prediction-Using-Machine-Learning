@@ -1,6 +1,6 @@
 # 🏢Employee-Salary-Prediction-Using-Machine-Learning
 
-A Machine Learning-powered Gradio web app that predicts whether an employee earns more than $50K per year based on demographic and professional features.
+A Machine Learning-powered Gradio web app that predicts whether an employee earns more than $50K per year based on demographic and professional features usong different types of machine learning modules and techniques.
 
 ---
 
