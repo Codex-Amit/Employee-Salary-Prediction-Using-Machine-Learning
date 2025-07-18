@@ -14,6 +14,34 @@ A Machine Learning-powered Gradio web app that predicts whether an employee earn
 
 ---
 
+## 🤖 ML Models Implemented
+
+The following machine learning algorithms were tested:
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Random Forest Classifier
+- Gradient Boosting Classifier
+
+Evaluation metrics:
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+---
+
+## 🧠 Deep Learning Approach
+
+A feed-forward Neural Network was built using **TensorFlow/Keras**:
+
+- Layers: Dense layers with ReLU activation
+- Optimizer: Adam
+- Metrics: Accuracy
+- Additional techniques: Dropout, Batch Normalization
+
+---
+
 ## 📁 Project Structure
 ```yaml
 Employee-Salary-Prediction-Using-Machine-Learning/
@@ -24,6 +52,7 @@ Employee-Salary-Prediction-Using-Machine-Learning/
 ├── requirements.txt     # List of dependencies
 └── README.md     # Project documentation
 ```
+#### # Note that the python version should be of version 3.12.0. As tensorflow is used in the project which supports only version upto 3.12.0. And using above it may cause error or may don't give the accurate result.
 
 
 ---
@@ -60,7 +89,6 @@ python salary_prediction_app.py
 ```
  Gradio will launch in your browser at http://localhost:7860
 
----
 ## 📊 Sample Outputs
 
 ### ✅ Model Training
@@ -82,16 +110,28 @@ Confidence: 89.7%
 | 28  | Private   | HS-grad   | ... | <=50K             | 78.6          |
 
 ---
+
+## For more detailed Analysis ( reffer to the Jupyter Notebook)
+
+## 1. Jupyter Lab Installation
+```yaml
+cd Employee-Salary-Prediction-Using-Machine-Learning
+python -m install jupyterlab
+```
+
+## 2. Run The Notebook
+```yaml
+python -m jupyterlab
+```
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/cmd.jpg?raw=true)
+---
+
 ## 📥 Dataset Requirements
 For training or batch prediction, your CSV should contain these columns:
 ```text
 age, workclass, education-num, marital-status, occupation, relationship,
 race, gender, capital-gain, capital-loss, hours-per-week, native-country
 ```
-Training Data: Must include income column with values <=50K or >50K
-
-Batch Prediction Data: Should not include income column
-
 ---
 ## 🛠 Technologies Used
 - Python
