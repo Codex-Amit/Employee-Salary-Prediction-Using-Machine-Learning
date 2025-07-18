@@ -125,10 +125,23 @@ python -m jupyterlab
 ```
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/cmd.jpg?raw=true)
 
-### After Executing the command a localhost server at port 8080 will be created.
-### Open the Python notebook file.
+#### ➡️After Executing the command a localhost server at port 8080 will be created.
+#### ➡️Open the Python notebook file(click twice to open).
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Jupyterlab.png?raw=true)
----
+
+#### Run Each cell containing codes.
+
+#### Some Sample Output 
+
+#### 1. Field Outputs
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/sample_output.jpg?raw=true)
+
+#### 2. Scaling Outputs
+##### MinMax Scaling
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/MimMax%20Scaling.jpg?raw=true)
+
+##### Standard Scaling
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Standard%20Scaling.jpg?raw=true)
 
 ## 📥 Dataset Requirements
 For training or batch prediction, your CSV should contain these columns:
