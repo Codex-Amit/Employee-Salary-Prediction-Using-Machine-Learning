@@ -124,6 +124,10 @@ python -m install jupyterlab
 python -m jupyterlab
 ```
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/cmd.jpg?raw=true)
+
+### After Executing the command a localhost server at port 8080 will be created.
+### Open the Python notebook file.
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Jupyterlab.png?raw=true)
 ---
 
 ## 📥 Dataset Requirements
@@ -133,9 +137,3 @@ age, workclass, education-num, marital-status, occupation, relationship,
 race, gender, capital-gain, capital-loss, hours-per-week, native-country
 ```
 ---
-## 🛠 Technologies Used
-- Python
-- Scikit-learn
-- Pandas, NumPy
-- Gradio for UI
-- Gradient Boosting Classifier
