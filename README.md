@@ -171,27 +171,64 @@ race, gender, capital-gain, capital-loss, hours-per-week, native-country
 pip install -r requirements.txt
 ```
 
-### ❗ 2. FileNotFoundError: [Errno 2] No such file or directory: 'adult.csv'
+### ❗ 2. `FileNotFoundError: [Errno 2] No such file or directory: 'adult.csv'`
 **Cause**: Training file not found or not uploaded.
 
-Solution:
+**Solution**:
 Make sure to:
 
-Upload adult.csv in the Model Training tab.
+- Upload adult.csv in the Model Training tab.
 
-Or provide your own CSV file in the correct format.
+- Provide your own CSV file in the correct format.
+
+### ❗ 3. ValueError: could not convert string to float
+ **Cause :** Incorrect column data types or unexpected missing values.
+ 
+ **Solution:**
+- Ensure your CSV file has valid numeric values for numeric columns.
+- Avoid blank rows or unexpected strings.
+- Use the provided adult.csv format as a template.
+
+❗ 4. Model not trained yet. Please upload training data first.
+Cause: Attempting prediction before training the model.
+
+Solution:
+
+First upload a training dataset and click on "Train Model".
+
+Then proceed to Single or Batch Prediction.
+
+❗ 5. App doesn't launch or crashes immediately
+Solution:
+
+Check Python version (recommended: Python 3.8+).
+
+Ensure all libraries are installed correctly.
+
+Run the script with python salary_prediction_app.py not .ipynb.
 
 ---
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+---
 
-- **Gradio Team** - For the amazing web interface framework
-- **pdfplumber** - For robust PDF text extraction
-- **pandas** - For efficient data manipulation
-- **Open Source Community** - For inspiration and support
+## 🙏 Acknowledgements
+
+This project was inspired by and made possible thanks to:
+
+- - 🧠 **Scikit-learn** for providing robust machine learning algorithms and utilities such as:
+  - `GradientBoostingClassifier` used for salary classification
+  - `LabelEncoder`, `StandardScaler`, and model evaluation functions
+- 🐍 **Pandas** and **NumPy** for efficient data manipulation.
+- 🌐 **Gradio** for making ML interfaces fast and user-friendly.
+- 💡 Open-source contributors who help make ML tools accessible.
+- 👨‍🏫 Community tutorials, blog posts, and notebooks that served as references.
+
+Special thanks to all the developers, educators, and researchers who contribute to the open data and open source ecosystem ❤️.
+
+
 
 ## 📞 Support
 
