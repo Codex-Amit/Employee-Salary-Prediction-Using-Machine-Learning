@@ -181,7 +181,7 @@ Make sure to:
 
 - Provide your own CSV file in the correct format.
 
-### ❗ 3. ValueError: could not convert string to float
+### ❗ 3. `ValueError: could not convert string to float`
  **Cause :** Incorrect column data types or unexpected missing values.
  
  **Solution:**
@@ -189,23 +189,23 @@ Make sure to:
 - Avoid blank rows or unexpected strings.
 - Use the provided adult.csv format as a template.
 
-❗ 4. Model not trained yet. Please upload training data first.
-Cause: Attempting prediction before training the model.
+### ❗ 4. `Model not trained yet. Please upload training data first`
+ **Cause:** Attempting prediction before training the model.
 
-Solution:
+ **Solution:**
 
-First upload a training dataset and click on "Train Model".
+- First upload a training dataset and click on "Train Model".
 
-Then proceed to Single or Batch Prediction.
+- Then proceed to Single or Batch Prediction.
 
-❗ 5. App doesn't launch or crashes immediately
-Solution:
+### ❗ 5. `App doesn't launch or crashes immediately`
+**Solution:**
 
-Check Python version (recommended: Python 3.8+).
+- Check Python version (recommended: Python 3.8+).
 
-Ensure all libraries are installed correctly.
+- Ensure all libraries are installed correctly.
 
-Run the script with python salary_prediction_app.py not .ipynb.
+- Run the script with `python salary_prediction_app.py` not `.ipynb`
 
 ---
 ## 📄 License
