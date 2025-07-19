@@ -137,10 +137,10 @@ python -m jupyterlab
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/sample_output.jpg?raw=true)
 
 #### 2. Scaling Outputs
-##### MinMax Scaling
+##### i. MinMax Scaling
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/MimMax%20Scaling.jpg?raw=true)
 
-##### Standard Scaling
+##### ii. Standard Scaling
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Standard%20Scaling.jpg?raw=true)
 
 ## 📥 Dataset Requirements
