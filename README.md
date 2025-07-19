@@ -131,17 +131,20 @@ python -m jupyterlab
 
 #### Run Each cell containing codes.
 
-#### Some Sample Output 
+## 📊Some Sample Output 
 
-#### 1. Field Outputs
+### 1. Field Outputs
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/sample_output.jpg?raw=true)
 
-#### 2. Scaling Outputs
-##### i. MinMax Scaling
+### 2. Scaling Outputs
+#### i. MinMax Scaling
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/MimMax%20Scaling.jpg?raw=true)
 
-##### ii. Standard Scaling
+#### ii. Standard Scaling
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Standard%20Scaling.jpg?raw=true)
+
+### 3. Best Model
+![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Best%20Model.jpg?raw=true)
 
 ## 📥 Dataset Requirements
 For training or batch prediction, your CSV should contain these columns:
