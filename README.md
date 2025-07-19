@@ -146,10 +146,58 @@ python -m jupyterlab
 ### 3. Best Model
 ![image alt](https://github.com/Codex-Amit/Employee-Salary-Prediction-Using-Machine-Learning/blob/main/Images/Best%20Model.jpg?raw=true)
 
+#### Alongwith some more and exciting analysis methodologies.
+
 ## 📥 Dataset Requirements
 For training or batch prediction, your CSV should contain these columns:
 ```text
 age, workclass, education-num, marital-status, occupation, relationship,
 race, gender, capital-gain, capital-loss, hours-per-week, native-country
 ```
+
 ---
+
+## 🐛 Troubleshooting
+
+#### Solutions to some common problems you might face
+
+### ❗ 1. `ModuleNotFoundError: No module named 'gradio'`
+
+**Cause**: Required Python packages not installed.
+
+**Solution**:
+#### Run the following command to install dependencies:
+```yaml
+pip install -r requirements.txt
+```
+
+### ❗ 2. FileNotFoundError: [Errno 2] No such file or directory: 'adult.csv'
+**Cause**: Training file not found or not uploaded.
+
+Solution:
+Make sure to:
+
+Upload adult.csv in the Model Training tab.
+
+Or provide your own CSV file in the correct format.
+
+---
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Gradio Team** - For the amazing web interface framework
+- **pdfplumber** - For robust PDF text extraction
+- **pandas** - For efficient data manipulation
+- **Open Source Community** - For inspiration and support
+
+## 📞 Support
+
+- 📧 **Email**: amitkumarswain2005@gmail.com
+---
+
+<div align="center">
+
+**⭐ Star this repository if you found it helpful! ⭐**
