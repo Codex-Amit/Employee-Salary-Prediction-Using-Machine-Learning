@@ -4,3 +4,6 @@ scikit-learn
 gradio
 pickle
 warnings
+matplotlib 
+seaborn 
+tensorflow
