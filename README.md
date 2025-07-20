@@ -218,7 +218,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This project was inspired by and made possible thanks to:
 
-- - 🧠 **Scikit-learn** for providing robust machine learning algorithms and utilities such as:
+- 🧠 **Scikit-learn** for providing robust machine learning algorithms and utilities such as:
   - `GradientBoostingClassifier` used for salary classification
   - `LabelEncoder`, `StandardScaler`, and model evaluation functions
 - 🐍 **Pandas** and **NumPy** for efficient data manipulation.
